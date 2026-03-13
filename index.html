@@ -16,13 +16,14 @@ new CozeWebSDK.WebChatClient({
     bot_id: "7615922655191433279"
   },
   componentProps: {
-    title: "入职办理小助手"
+    title: "入职办理小助手",
+    defaultOpen: true   <!-- 就是加了这一行！ -->
   },
   auth: {
     type: "token",
-    token: "pat_TWd17rTTv4IxU8ejE3SDygHVAlKvGYYshELJOdRmKImTDm758sxtHZiUFHjMUx7g",
+    token: "pat_E4Aesc5T2O9q9jw2rmt99dgMJYITIWx0aunDQJtGXm2o3GQXYntGI3e6H42kxkip",
     onRefreshToken: function() {
-      return "pat_TWd17rTTv4IxU8ejE3SDygHVAlKvGYYshELJOdRmKImTDm758sxtHZiUFHjMUx7g";
+      return "pat_E4Aesc5T2O9q9jw2rmt99dgMJYITIWx0aunDQJtGXm2o3GQXYntGI3e6H42kxkip";
     }
   }
 });
